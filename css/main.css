@@ -1,0 +1,135 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Meera Inimai', sans-serif;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+/**************/
+/*HEADER*/
+/**************/
+
+.header-container {
+  background-image: url('../assets/header_background.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+
+.header-content-container {
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  padding: 20px 10px 0 10px;
+}
+
+#header-logo {
+  display: inline-block;
+  width: 250px;
+  height: auto;
+}
+
+.nav {
+  display: inline-block;
+  width: auto;
+  float: right;
+  color: black;
+  list-style: none;
+}
+
+.nav li {display: inline;}
+.nav li:nth-child(2) {padding: 0 20px 0 20px;}
+
+.header-waves-container {
+  margin: 20px 0 20px 0;
+}
+
+.header-waves {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 2px 0 2px 0;
+}
+
+.header-carousel {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 20px 0 20px 0;
+}
+
+.header-carousel h3 {
+  text-align: center;
+}
+
+.header-carousel img {
+  display: block;
+  width: 400px;
+  height: auto;
+  margin: auto;
+  padding: 20px 0 20px 0;
+}
+
+.carousel-button {
+  display: inline-block;
+  background-color: white;
+  width: auto;
+  height: auto;
+  margin: 20px 0 20px 0;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.carousel-button p {
+  padding: 10px 10px 10px 10px;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  margin: 0;
+  color: #00bff3;
+}
+
+
+/**************/
+/*CONTENT*/
+/**************/
+
+.content-container {
+  text-align: center;
+
+}
+
+.content-container h2 {
+  font-size: 1.5em;
+}
+
+#surf-text {
+  width: auto;
+  height: 2em;
+}
+
+.services-container {
+  width: 75%;
+  height: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.square {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  margin: 5px 5px 5px 5px;
+}
+
+.square img {
+  max-width: 100%;
+  height: auto;
+}
+
+.square p {
+  margin: 10px 10px 10px 10px;
+}
