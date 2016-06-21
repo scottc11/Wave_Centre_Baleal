@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/boilerplate.css">
         <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.css" media="screen">
         <link rel="stylesheet" href="css/main.css">
-        <!-- <link href="https://fonts.googleapis.com/css?family=Meera+Inimai" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Meera+Inimai" rel="stylesheet">
 
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -85,7 +85,17 @@
           <p>Reach out to us and we will be sure to get back to you with a personalized quote.</p>
 
           <div class="form-container">
+            <form id="contact-form" action="index.html" method="post">
+              <input type="text" name="name" value="Your name">
+              <input type="email" name="email" value="Your email">
+              <select class="" name="" form="contact-form">
+                <option value="surfing">surfing</option>
+                <option value="lessons">lessons</option>
+                <option value="pricing">pricing</option>
+              </select>
+              <textarea name="message">Message (optional)</textarea>
 
+            </form>
           </div>
         </div>
 
