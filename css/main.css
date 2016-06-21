@@ -22,7 +22,7 @@ h3 {
 }
 
 .header-content-container {
-  width: 75%;
+  width: 960px;
   height: 100%;
   margin: auto;
   padding: 20px 10px 0 10px;
@@ -99,6 +99,8 @@ h3 {
 /**************/
 
 .content-container {
+  width: 960px;
+  height: auto;
   text-align: center;
   margin: 30px auto 30px auto;
 }
@@ -113,8 +115,8 @@ h3 {
 }
 
 .services-container {
-  width: 75%;
-  height: 400px;
+  width: 960px;
+  height: auto;
   margin: auto;
   padding: 10px;
 }
